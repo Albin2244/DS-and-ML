@@ -1,0 +1,11 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Define x and y arrays with the same length
+x = np.array([1, 2, 3, 4, 5])  # Adjusted x array to match the length of y
+y = np.array([10, 20, 30, 40, 50])
+plt.plot(x, y, linestyle=" ", color="red", marker="*", markerfacecolor="green", markersize=10, markeredgecolor="blue")
+plt.xlabel("Days")
+plt.ylabel("Sales")
+plt.title("Sales Data")
+plt.show()
